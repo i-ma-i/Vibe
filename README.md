@@ -1,5 +1,7 @@
 ## 仮想マシンの立ち上げ
+
 [VirtualBoxのインストール](https://www.kagoya.jp/howto/it-glossary/server/virtualbox)
+
 [Ubuntuのインストール](https://qiita.com/HirMtsd/items/225c20b77a7cd5194834)
 
 1. Oracle VirtualBox をインストールする。
@@ -16,7 +18,7 @@
       ```
    2. VSCode
       ```
-      sudo snap install --classic code -y
+      sudo snap install --classic code
       ```
    3. NodeJS + npm
       ```
@@ -26,3 +28,4 @@
 ```
 npm install -g @anthropic-ai/claude-code
 ```
+[Claude Code インストール時のトラブルシューティング](https://docs.anthropic.com/en/docs/claude-code/troubleshooting#linux-permission-issues)
