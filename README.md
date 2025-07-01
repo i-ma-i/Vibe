@@ -22,7 +22,8 @@
       ```
    3. NodeJS + npm
       ```
-      sudo apt install npm -y
+      curl -fsSL https://deb.nodesource.com/setup_22.17 | sudo -E bash -
+      sudo apt install -y nodejs
       ```
 4. Claude Code をインストールする。
 ```
