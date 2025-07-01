@@ -20,10 +20,14 @@
       ```
       sudo snap install --classic code
       ```
-   3. NodeJS + npm
+   3. curl
       ```
-      curl -fsSL https://deb.nodesource.com/setup_22.17 | sudo -E bash -
-      sudo apt install -y nodejs
+      sudo snap install curl
+      ```
+   4. NodeJS + npm
+      ```
+      curl -fsSL https://deb.nodesource.com/setup_22.x | sudo bash -
+      sudo apt-get install -y nodejs
       ```
 4. Claude Code をインストールする。
 ```
